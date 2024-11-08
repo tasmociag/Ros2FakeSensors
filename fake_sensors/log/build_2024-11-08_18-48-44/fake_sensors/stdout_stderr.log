@@ -1,0 +1,12 @@
+[ 25%] Built target lidar_subscriber
+[ 50%] Built target camera_subscriber
+[ 75%] Built target fake_camera_pro
+[ 87%] [32mBuilding CXX object CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o[0m
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:[m[K In member function ‘[01m[Kvoid FakeLidar::[01;32m[K_read_csv_file[m[K()[m[K’:
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:192:47:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+  192 |     std::string current_path = std::filesystem[01;31m[K:[m[Kcurrent_path();
+      |                                               [01;31m[K^[m[K
+      |                                               [32m[K::[m[K
+gmake[2]: *** [CMakeFiles/fake_lidar_pro.dir/build.make:76: CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/fake_lidar_pro.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

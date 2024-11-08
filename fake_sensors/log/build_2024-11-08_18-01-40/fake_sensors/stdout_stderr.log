@@ -1,0 +1,10 @@
+[ 33%] Built target fake_camera_pro
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_subscriber.dir/src/camera_subscriber.cpp.o[0m
+[ 83%] Built target fake_lidar_pro
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/Image.hpp: No such file or directory
+   10 | #include [01;31m[K"sensor_msgs/msg/Image.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/camera_subscriber.dir/build.make:76: CMakeFiles/camera_subscriber.dir/src/camera_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/camera_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

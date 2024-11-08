@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (fake_sensors) JobQueued: {'identifier': 'fake_sensors', 'dependencies': OrderedDict()}
+[0.000211] (fake_sensors) JobStarted: {'identifier': 'fake_sensors'}
+[0.010484] (fake_sensors) JobProgress: {'identifier': 'fake_sensors', 'progress': 'cmake'}
+[0.016970] (fake_sensors) JobProgress: {'identifier': 'fake_sensors', 'progress': 'build'}
+[0.017044] (fake_sensors) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors', '--', '-j2', '-l2'], 'cwd': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'homer', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/homer', 'OLDPWD': '/home/homer/Documents/Ros2FakeSensors', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/Alacritty.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1768', 'SYSTEMD_EXEC_PID': '2009', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5261', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'homer', 'ALACRITTY_SOCKET': '/run/user/1000/Alacritty-wayland-0-5261.sock', 'WINDOWID': '94229540546480', 'JOURNAL_STREAM': '8:14870', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'homer', 'TERM': 'xterm-256color', 'ALACRITTY_LOG': '/tmp/Alacritty-5261.log', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/homer-VirtualBox:@/tmp/.ICE-unix/1972,unix/homer-VirtualBox:/tmp/.ICE-unix/1972', 'INVOCATION_ID': '622707ef3a3b432aa570426c806ce4c8', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YWRUW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '94229540546480', 'PWD': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors:/opt/ros/jazzy'}), 'shell': False}
+[0.070482] (fake_sensors) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.089663] (-) TimerEvent: {}
+[0.190973] (-) TimerEvent: {}
+[0.292972] (-) TimerEvent: {}
+[0.324485] (fake_sensors) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.348059] (fake_sensors) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.357536] (fake_sensors) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.370435] (fake_sensors) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.383992] (fake_sensors) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.442422] (-) TimerEvent: {}
+[0.445521] (fake_sensors) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.447231] (fake_sensors) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.542652] (fake_sensors) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.542839] (-) TimerEvent: {}
+[0.612581] (fake_sensors) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.626668] (fake_sensors) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.674947] (-) TimerEvent: {}
+[0.675701] (fake_sensors) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.778198] (-) TimerEvent: {}
+[0.806726] (fake_sensors) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.807622] (fake_sensors) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/homer/Documents/Ros2FakeSensors/fake_sensors/include;$<BUILD_INTERFACE:/home/homer/Documents/Ros2FakeSensors/fake_sensors/include>\n'}
+[0.807716] (fake_sensors) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.812534] (fake_sensors) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.812629] (fake_sensors) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[0.819869] (fake_sensors) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.823900] (fake_sensors) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.853191] (fake_sensors) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.853367] (fake_sensors) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.857244] (fake_sensors) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.858706] (fake_sensors) StdoutLine: {'line': b'-- Configuring done (0.8s)\n'}
+[0.878617] (-) TimerEvent: {}
+[0.898316] (fake_sensors) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.900341] (fake_sensors) StdoutLine: {'line': b'-- Build files have been written to: /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors\n'}
+[0.956530] (fake_sensors) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/lidar_subscriber.dir/src/lidar_subscriber.cpp.o\x1b[0m\n'}
+[1.001199] (-) TimerEvent: {}
+[1.079293] (fake_sensors) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/camera_subscriber.dir/src/camera_subscriber.cpp.o\x1b[0m\n'}
+[1.823011] (-) TimerEvent: {}
+[2.810449] (-) TimerEvent: {}
+[3.900565] (-) TimerEvent: {}
+[4.792608] (-) TimerEvent: {}
+[4.953964] (-) TimerEvent: {}
+[5.796634] (-) TimerEvent: {}
+[6.803078] (-) TimerEvent: {}
+[7.794950] (-) TimerEvent: {}
+[8.798283] (-) TimerEvent: {}
+[8.905141] (-) TimerEvent: {}
+[9.612412] (-) TimerEvent: {}
+[9.716223] (-) TimerEvent: {}
+[9.820218] (-) TimerEvent: {}
+[10.046223] (-) TimerEvent: {}
+[10.266359] (-) TimerEvent: {}
+[10.339298] (fake_sensors) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX executable lidar_subscriber\x1b[0m\n'}
+[10.541640] (-) TimerEvent: {}
+[10.609135] (fake_sensors) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable camera_subscriber\x1b[0m\n'}
+[10.678035] (-) TimerEvent: {}
+[10.750277] (fake_sensors) StdoutLine: {'line': b'[ 50%] Built target lidar_subscriber\n'}
+[10.781037] (-) TimerEvent: {}
+[10.887277] (-) TimerEvent: {}
+[11.000341] (-) TimerEvent: {}
+[11.042340] (fake_sensors) StdoutLine: {'line': b'[ 75%] Built target fake_camera_pro\n'}
+[11.102099] (-) TimerEvent: {}
+[11.127001] (fake_sensors) StdoutLine: {'line': b'[100%] Built target fake_lidar_pro\n'}
+[11.203406] (-) TimerEvent: {}
+[11.303753] (-) TimerEvent: {}
+[11.318237] (fake_sensors) StdoutLine: {'line': b'[100%] Built target camera_subscriber\n'}
+[11.338024] (fake_sensors) CommandEnded: {'returncode': 0}
+[11.404441] (-) TimerEvent: {}
+[11.417034] (fake_sensors) JobProgress: {'identifier': 'fake_sensors', 'progress': 'install'}
+[11.432242] (fake_sensors) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors'], 'cwd': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'homer', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/homer', 'OLDPWD': '/home/homer/Documents/Ros2FakeSensors', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/Alacritty.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1768', 'SYSTEMD_EXEC_PID': '2009', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5261', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'homer', 'ALACRITTY_SOCKET': '/run/user/1000/Alacritty-wayland-0-5261.sock', 'WINDOWID': '94229540546480', 'JOURNAL_STREAM': '8:14870', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'homer', 'TERM': 'xterm-256color', 'ALACRITTY_LOG': '/tmp/Alacritty-5261.log', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/homer-VirtualBox:@/tmp/.ICE-unix/1972,unix/homer-VirtualBox:/tmp/.ICE-unix/1972', 'INVOCATION_ID': '622707ef3a3b432aa570426c806ce4c8', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YWRUW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '94229540546480', 'PWD': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors:/opt/ros/jazzy'}), 'shell': False}
+[11.443347] (fake_sensors) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.443569] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/camera_subscriber\n'}
+[11.452985] (fake_sensors) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/camera_subscriber" to ""\n'}
+[11.453306] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/fake_lidar_pro\n'}
+[11.453868] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/fake_camera_pro\n'}
+[11.454823] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/ament_index/resource_index/package_run_dependencies/fake_sensors\n'}
+[11.455383] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/ament_index/resource_index/parent_prefix_path/fake_sensors\n'}
+[11.456624] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/environment/ament_prefix_path.sh\n'}
+[11.456710] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/environment/ament_prefix_path.dsv\n'}
+[11.456772] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/environment/path.sh\n'}
+[11.456826] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/environment/path.dsv\n'}
+[11.456879] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/local_setup.bash\n'}
+[11.456933] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/local_setup.sh\n'}
+[11.456986] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/local_setup.zsh\n'}
+[11.457038] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/local_setup.dsv\n'}
+[11.457107] (fake_sensors) StdoutLine: {'line': b'-- Installing: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/package.dsv\n'}
+[11.457162] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/ament_index/resource_index/packages/fake_sensors\n'}
+[11.457216] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/cmake/fake_sensorsConfig.cmake\n'}
+[11.457269] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/cmake/fake_sensorsConfig-version.cmake\n'}
+[11.457322] (fake_sensors) StdoutLine: {'line': b'-- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/package.xml\n'}
+[11.459464] (fake_sensors) CommandEnded: {'returncode': 0}
+[11.504704] (-) TimerEvent: {}
+[11.557195] (fake_sensors) JobEnded: {'identifier': 'fake_sensors', 'rc': 0}
+[11.557652] (-) EventReactorShutdown: {}

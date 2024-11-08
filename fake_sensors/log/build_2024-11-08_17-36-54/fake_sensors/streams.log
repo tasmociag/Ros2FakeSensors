@@ -1,0 +1,24 @@
+[0.019s] Invoking command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/homer/Documents/Ros2FakeSensors/fake_sensors -DCMAKE_INSTALL_PREFIX=/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors
+[0.040s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.286s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.313s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.329s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.343s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.434s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.436s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.513s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.587s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.602s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.657s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.763s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.763s]   ament_package_xml() package name 'fake_sensors' in '/package.xml' does not
+[0.763s]   match current PROJECT_NAME 'fake_sensord'.  You must call project() with
+[0.763s]   the same package name before.
+[0.763s] Call Stack (most recent call first):
+[0.763s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.763s]   CMakeLists.txt:81 (ament_lint_auto_find_test_dependencies)
+[0.763s] 
+[0.763s] [0m
+[0.764s] -- Configuring incomplete, errors occurred!
+[0.775s] Invoked command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/homer/Documents/Ros2FakeSensors/fake_sensors -DCMAKE_INSTALL_PREFIX=/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors

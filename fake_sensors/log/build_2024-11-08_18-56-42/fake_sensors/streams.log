@@ -1,0 +1,16 @@
+[0.022s] Invoking command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2
+[0.149s] [ 25%] Built target lidar_subscriber
+[0.164s] [ 50%] Built target camera_subscriber
+[0.259s] [ 75%] Built target fake_camera_pro
+[0.315s] [ 87%] [32mBuilding CXX object CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o[0m
+[3.601s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:[m[K In member function ‘[01m[Kvoid FakeLidar::[01;32m[K_read_csv_file[m[K()[m[K’:
+[3.601s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:196:63:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kstd::filesystem::__cxx11::path[m[K’ and ‘[01m[Kconst char [2][m[K’)
+[3.601s]   196 |     std::string current_path = [32m[Kstd::filesystem::current_path()[m[K[01;31m[K+[m[K[34m[K"/"[m[K+lidar_csv_file;
+[3.601s]       |                                [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K[01;31m[K^[m[K[34m[K~~~[m[K
+[3.601s]       |                                                             [32m[K|[m[K  [34m[K|[m[K
+[3.601s]       |                                                             [32m[K|[m[K  [34m[Kconst char [2][m[K
+[3.601s]       |                                                             [32m[Kstd::filesystem::__cxx11::path[m[K
+[4.762s] gmake[2]: *** [CMakeFiles/fake_lidar_pro.dir/build.make:76: CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o] Error 1
+[4.762s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/fake_lidar_pro.dir/all] Error 2
+[4.762s] gmake: *** [Makefile:146: all] Error 2
+[4.767s] Invoked command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2

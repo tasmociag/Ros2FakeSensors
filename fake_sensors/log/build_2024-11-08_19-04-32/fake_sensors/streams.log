@@ -1,0 +1,18 @@
+[0.019s] Invoking command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2
+[0.162s] [ 25%] Built target lidar_subscriber
+[0.162s] [ 50%] Built target camera_subscriber
+[0.224s] [ 75%] Built target fake_camera_pro
+[0.246s] [ 87%] [32mBuilding CXX object CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o[0m
+[3.462s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:[m[K In member function ‘[01m[Kstd::vector<float> FakeLidar::[01;32m[K_filtr_ranges[m[K(std::vector<float>)[m[K’:
+[3.462s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:228:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.463s]   228 |     for(int i=0;[01;35m[Ki<tab.size()[m[K;i++){
+[3.463s]       |                 [01;35m[K~^~~~~~~~~~~[m[K
+[3.463s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:232:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+[3.463s]   232 |     return new_ranges[01;31m[K:[m[K
+[3.463s]       |                      [01;31m[K^[m[K
+[3.463s]       |                      [32m[K;[m[K
+[3.463s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:232:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[4.930s] gmake[2]: *** [CMakeFiles/fake_lidar_pro.dir/build.make:76: CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o] Error 1
+[4.931s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/fake_lidar_pro.dir/all] Error 2
+[4.931s] gmake: *** [Makefile:146: all] Error 2
+[4.935s] Invoked command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2

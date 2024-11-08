@@ -1,0 +1,13 @@
+[ 25%] Built target camera_subscriber
+[ 50%] Built target lidar_subscriber
+[ 75%] Built target fake_camera_pro
+[ 87%] [32mBuilding CXX object CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o[0m
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:[m[K In constructor ‘[01m[KFakeLidar::[01;32m[KFakeLidar[m[K()[m[K’:
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:161:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktab[m[K’ was not declared in this scope; did you mean ‘[01m[Ktan[m[K’?
+  161 |         return [01;31m[Ktab[m[K;
+      |                [01;31m[K^~~[m[K
+      |                [32m[Ktan[m[K
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:161:16:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+gmake[2]: *** [CMakeFiles/fake_lidar_pro.dir/build.make:76: CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/fake_lidar_pro.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,12 @@
+[0.017s] Invoking command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2
+[0.136s] [ 33%] Built target fake_camera_pro
+[0.139s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_subscriber.dir/src/camera_subscriber.cpp.o[0m
+[0.206s] [ 83%] Built target fake_lidar_pro
+[0.471s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/Image.hpp: No such file or directory
+[0.471s]    10 | #include [01;31m[K"sensor_msgs/msg/Image.hpp"[m[K
+[0.471s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.471s] compilation terminated.
+[0.483s] gmake[2]: *** [CMakeFiles/camera_subscriber.dir/build.make:76: CMakeFiles/camera_subscriber.dir/src/camera_subscriber.cpp.o] Error 1
+[0.486s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/camera_subscriber.dir/all] Error 2
+[0.486s] gmake: *** [Makefile:146: all] Error 2
+[0.497s] Invoked command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2

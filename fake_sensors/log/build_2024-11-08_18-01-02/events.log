@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (fake_sensors) JobQueued: {'identifier': 'fake_sensors', 'dependencies': OrderedDict()}
+[0.000227] (fake_sensors) JobStarted: {'identifier': 'fake_sensors'}
+[0.012286] (fake_sensors) JobProgress: {'identifier': 'fake_sensors', 'progress': 'cmake'}
+[0.014426] (fake_sensors) JobProgress: {'identifier': 'fake_sensors', 'progress': 'build'}
+[0.015926] (fake_sensors) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors', '--', '-j2', '-l2'], 'cwd': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'homer', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/homer', 'OLDPWD': '/home/homer/Documents/Ros2FakeSensors', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/Alacritty.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1768', 'SYSTEMD_EXEC_PID': '2009', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5261', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'homer', 'ALACRITTY_SOCKET': '/run/user/1000/Alacritty-wayland-0-5261.sock', 'WINDOWID': '94229540546480', 'JOURNAL_STREAM': '8:14870', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'homer', 'TERM': 'xterm-256color', 'ALACRITTY_LOG': '/tmp/Alacritty-5261.log', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/homer-VirtualBox:@/tmp/.ICE-unix/1972,unix/homer-VirtualBox:/tmp/.ICE-unix/1972', 'INVOCATION_ID': '622707ef3a3b432aa570426c806ce4c8', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YWRUW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '94229540546480', 'PWD': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors:/opt/ros/jazzy'}), 'shell': False}
+[0.099242] (-) TimerEvent: {}
+[0.144635] (fake_sensors) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/camera_subscriber.dir/src/camera_subscriber.cpp.o\x1b[0m\n'}
+[0.154622] (fake_sensors) StdoutLine: {'line': b'[ 50%] Built target fake_camera_pro\n'}
+[0.200382] (-) TimerEvent: {}
+[0.206229] (fake_sensors) StdoutLine: {'line': b'[ 83%] Built target fake_lidar_pro\n'}
+[0.301139] (-) TimerEvent: {}
+[0.402904] (-) TimerEvent: {}
+[0.503503] (-) TimerEvent: {}
+[0.538288] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:68:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated argument list invoking macro "RCLCPP_INFO"\n'}
+[0.538508] (fake_sensors) StderrLine: {'line': b'   68 | }\n'}
+[0.538603] (fake_sensors) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.604314] (-) TimerEvent: {}
+[0.704970] (-) TimerEvent: {}
+[0.805684] (-) TimerEvent: {}
+[0.906214] (-) TimerEvent: {}
+[1.007017] (-) TimerEvent: {}
+[1.108960] (-) TimerEvent: {}
+[1.210833] (-) TimerEvent: {}
+[1.314117] (-) TimerEvent: {}
+[1.416964] (-) TimerEvent: {}
+[1.519077] (-) TimerEvent: {}
+[1.621187] (-) TimerEvent: {}
+[1.722535] (-) TimerEvent: {}
+[1.823219] (-) TimerEvent: {}
+[1.924341] (-) TimerEvent: {}
+[2.024952] (-) TimerEvent: {}
+[2.126016] (-) TimerEvent: {}
+[2.226416] (-) TimerEvent: {}
+[2.326908] (-) TimerEvent: {}
+[2.428736] (-) TimerEvent: {}
+[2.531055] (-) TimerEvent: {}
+[2.633215] (-) TimerEvent: {}
+[2.738120] (-) TimerEvent: {}
+[2.839703] (-) TimerEvent: {}
+[2.941638] (-) TimerEvent: {}
+[2.956095] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:15:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.956284] (fake_sensors) StderrLine: {'line': b'   15 | typedef \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::Image ImageMsg;\n'}
+[2.956343] (fake_sensors) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.962443] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:26:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageMsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.962547] (fake_sensors) StderrLine: {'line': b'   26 |     rclcpp::Subscription<\x1b[01;31m\x1b[KImageMsg\x1b[m\x1b[K>::SharedPtr _camera_scan_subscribtion;\n'}
+[2.962604] (fake_sensors) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.962656] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:26:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.962726] (fake_sensors) StderrLine: {'line': b'   26 |     rclcpp::Subscription<ImageMsg\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr _camera_scan_subscribtion;\n'}
+[2.962777] (fake_sensors) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.962828] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:26:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[2.962878] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:26:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[2.962929] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:26:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[2.963028] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:26:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.963093] (fake_sensors) StderrLine: {'line': b'   26 |     rclcpp::Subscription<ImageMsg>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K _camera_scan_subscribtion;\n'}
+[2.963146] (fake_sensors) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.963197] (fake_sensors) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.968068] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:26:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_camera_scan_subscribtion\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.968189] (fake_sensors) StderrLine: {'line': b'   26 |     rclcpp::Subscription<ImageMsg>::SharedPtr \x1b[01;31m\x1b[K_camera_scan_subscribtion\x1b[m\x1b[K;\n'}
+[2.968247] (fake_sensors) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.968302] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:29:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageMsg\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.968356] (fake_sensors) StderrLine: {'line': b'   29 |     void _camera_scan_callback(\x1b[01;31m\x1b[KImageMsg\x1b[m\x1b[K::UniquePtr msg);\n'}
+[2.968411] (fake_sensors) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.968466] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:29:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.968520] (fake_sensors) StderrLine: {'line': b'   29 |     void _camera_scan_callback(ImageMsg::UniquePtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K);\n'}
+[2.968573] (fake_sensors) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.990368] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCameraSubscriber::\x1b[01;32m\x1b[KCameraSubscriber\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.990695] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:35:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_camera_scan_subscribtion\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.990788] (fake_sensors) StderrLine: {'line': b'   35 |     \x1b[01;31m\x1b[K_camera_scan_subscribtion\x1b[m\x1b[K = this->create_subscription<ImageMsg>(\n'}
+[2.990843] (fake_sensors) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.996366] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:35:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageMsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.996471] (fake_sensors) StderrLine: {'line': b'   35 |     _camera_scan_subscribtion = this->create_subscription<\x1b[01;31m\x1b[KImageMsg\x1b[m\x1b[K>(\n'}
+[2.996533] (fake_sensors) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.007683] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:35:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KCameraSubscriber::create_subscription<<expression error> >(const char [12], int, std::_Bind_helper<false, void (CameraSubscriber::*)(int), CameraSubscriber*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.007878] (fake_sensors) StderrLine: {'line': b'   35 |     _camera_scan_subscribtion = \x1b[01;31m\x1b[Kthis->create_subscription<ImageMsg>(\x1b[m\x1b[K\n'}
+[3.007937] (fake_sensors) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.007990] (fake_sensors) StderrLine: {'line': b'   36 | \x1b[01;31m\x1b[K        "camera_scan",\x1b[m\x1b[K\n'}
+[3.008041] (fake_sensors) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K                                              \n'}
+[3.008092] (fake_sensors) StderrLine: {'line': b'   37 | \x1b[01;31m\x1b[K        10,\x1b[m\x1b[K\n'}
+[3.008142] (fake_sensors) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~\x1b[m\x1b[K                                                         \n'}
+[3.008192] (fake_sensors) StderrLine: {'line': b'   38 | \x1b[01;31m\x1b[K        std::bind(&CameraSubscriber::_camera_scan_callback, this, std::placeholders::_1)\x1b[m\x1b[K\n'}
+[3.008243] (fake_sensors) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.008293] (fake_sensors) StderrLine: {'line': b'   39 | \x1b[01;31m\x1b[K    )\x1b[m\x1b[K;\n'}
+[3.008343] (fake_sensors) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                               \n'}
+[3.008393] (fake_sensors) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.008443] (fake_sensors) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.008494] (fake_sensors) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[3.008552] (fake_sensors) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:9\x1b[m\x1b[K:\n'}
+[3.008606] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::\x1b[01;32m\x1b[Kcreate_subscription\x1b[m\x1b[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.008676] (fake_sensors) StderrLine: {'line': b'  221 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[3.008729] (fake_sensors) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.008781] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.008835] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:35:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.008889] (fake_sensors) StderrLine: {'line': b'   35 |     _camera_scan_subscribtion = \x1b[01;31m\x1b[Kthis->create_subscription<ImageMsg>(\x1b[m\x1b[K\n'}
+[3.008941] (fake_sensors) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.008993] (fake_sensors) StderrLine: {'line': b'   36 | \x1b[01;31m\x1b[K        "camera_scan",\x1b[m\x1b[K\n'}
+[3.009046] (fake_sensors) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K                                              \n'}
+[3.009098] (fake_sensors) StderrLine: {'line': b'   37 | \x1b[01;31m\x1b[K        10,\x1b[m\x1b[K\n'}
+[3.009150] (fake_sensors) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~\x1b[m\x1b[K                                                         \n'}
+[3.009202] (fake_sensors) StderrLine: {'line': b'   38 | \x1b[01;31m\x1b[K        std::bind(&CameraSubscriber::_camera_scan_callback, this, std::placeholders::_1)\x1b[m\x1b[K\n'}
+[3.009254] (fake_sensors) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.009314] (fake_sensors) StderrLine: {'line': b'   39 | \x1b[01;31m\x1b[K    )\x1b[m\x1b[K;\n'}
+[3.009366] (fake_sensors) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                               \n'}
+[3.009489] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.009556] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:43:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstdin\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.010326] (fake_sensors) StderrLine: {'line': b'   43 | \x1b[01;31m\x1b[Kstring\x1b[m\x1b[K CameraSubscriber::_camera_data_to_string(std::vector<uint8_t> data){\n'}
+[3.010387] (fake_sensors) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.010441] (fake_sensors) StderrLine: {'line': b'      | \x1b[32m\x1b[Kstdin\x1b[m\x1b[K\n'}
+[3.010494] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:53:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[K_camera_scan_callback\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[3.010548] (fake_sensors) StderrLine: {'line': b'   53 | void \x1b[01;31m\x1b[KCameraSubscriber\x1b[m\x1b[K::_camera_scan_callback(ImageMsg::UniquePtr msg)\n'}
+[3.010609] (fake_sensors) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.010661] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:53:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageMsg\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.010720] (fake_sensors) StderrLine: {'line': b'   53 | void CameraSubscriber::_camera_scan_callback(\x1b[01;31m\x1b[KImageMsg\x1b[m\x1b[K::UniquePtr msg)\n'}
+[3.010779] (fake_sensors) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.041909] (-) TimerEvent: {}
+[3.142522] (-) TimerEvent: {}
+[3.245230] (-) TimerEvent: {}
+[3.347202] (-) TimerEvent: {}
+[3.449701] (-) TimerEvent: {}
+[3.552124] (-) TimerEvent: {}
+[3.653925] (-) TimerEvent: {}
+[3.756024] (-) TimerEvent: {}
+[3.822389] (fake_sensors) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/camera_subscriber.dir/build.make:76: CMakeFiles/camera_subscriber.dir/src/camera_subscriber.cpp.o] Error 1\n'}
+[3.822610] (fake_sensors) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/camera_subscriber.dir/all] Error 2\n'}
+[3.822677] (fake_sensors) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.826971] (fake_sensors) CommandEnded: {'returncode': 2}
+[3.856258] (-) TimerEvent: {}
+[3.904377] (fake_sensors) JobEnded: {'identifier': 'fake_sensors', 'rc': 2}
+[3.918955] (-) EventReactorShutdown: {}

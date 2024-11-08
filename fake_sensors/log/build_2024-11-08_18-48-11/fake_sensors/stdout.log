@@ -1,0 +1,4 @@
+[ 25%] Built target camera_subscriber
+[ 50%] Built target lidar_subscriber
+[ 75%] Built target fake_camera_pro
+[ 87%] [32mBuilding CXX object CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o[0m

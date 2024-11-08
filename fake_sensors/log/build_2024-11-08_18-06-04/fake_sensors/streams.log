@@ -1,0 +1,24 @@
+[0.020s] Invoking command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2
+[0.133s] [ 33%] Built target fake_camera_pro
+[0.153s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_subscriber.dir/src/camera_subscriber.cpp.o[0m
+[0.246s] [ 83%] Built target fake_lidar_pro
+[0.611s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:68:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.611s]    68 | }
+[0.611s]       |  [01;31m[K^[m[K
+[3.090s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:[m[K In member function ‘[01m[Kvoid CameraSubscriber::[01;32m[K_camera_scan_callback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::UniquePtr)[m[K’:
+[3.093s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[3.093s]    55 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "RECEIVED - %s", _camera_data_to_string(msg->data);
+[3.093s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.093s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:55:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.093s]    55 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "RECEIVED - %s", _camera_data_to_string(msg->data);
+[3.093s]       |                [01;31m[K^[m[K
+[3.093s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:54:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.093s]    54 | [01;36m[K{[m[K
+[3.093s]       | [01;36m[K^[m[K
+[3.093s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/camera_subscriber.cpp:53:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.093s]    53 | void CameraSubscriber::_camera_scan_callback([01;35m[KImageMsg::UniquePtr msg[m[K)
+[3.093s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.421s] gmake[2]: *** [CMakeFiles/camera_subscriber.dir/build.make:76: CMakeFiles/camera_subscriber.dir/src/camera_subscriber.cpp.o] Error 1
+[5.422s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/camera_subscriber.dir/all] Error 2
+[5.424s] gmake: *** [Makefile:146: all] Error 2
+[5.436s] Invoked command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2

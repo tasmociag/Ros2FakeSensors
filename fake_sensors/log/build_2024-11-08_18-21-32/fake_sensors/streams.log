@@ -1,0 +1,29 @@
+[0.021s] Invoking command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2
+[0.210s] [ 33%] Built target fake_camera_pro
+[0.230s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_subscriber.dir/src/camera_subscriber.cpp.o[0m
+[0.286s] [ 83%] Built target fake_lidar_pro
+[8.086s] [100%] [32m[1mLinking CXX executable camera_subscriber[0m
+[8.489s] [100%] Built target camera_subscriber
+[8.509s] Invoked command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2
+[8.609s] Invoking command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors
+[8.624s] -- Install configuration: ""
+[8.624s] -- Installing: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/camera_subscriber
+[8.633s] -- Set non-toolchain portion of runtime path of "/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/camera_subscriber" to ""
+[8.633s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/fake_lidar_pro
+[8.634s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/fake_camera_pro
+[8.636s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/ament_index/resource_index/package_run_dependencies/fake_sensors
+[8.637s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/ament_index/resource_index/parent_prefix_path/fake_sensors
+[8.637s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/environment/ament_prefix_path.sh
+[8.637s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/environment/ament_prefix_path.dsv
+[8.637s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/environment/path.sh
+[8.637s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/environment/path.dsv
+[8.637s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/local_setup.bash
+[8.637s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/local_setup.sh
+[8.637s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/local_setup.zsh
+[8.637s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/local_setup.dsv
+[8.637s] -- Installing: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/package.dsv
+[8.637s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/ament_index/resource_index/packages/fake_sensors
+[8.637s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/cmake/fake_sensorsConfig.cmake
+[8.638s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/cmake/fake_sensorsConfig-version.cmake
+[8.638s] -- Up-to-date: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/share/fake_sensors/package.xml
+[8.641s] Invoked command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors

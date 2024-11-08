@@ -1,0 +1,29 @@
+[ 25%] Built target camera_subscriber
+[ 37%] [32mBuilding CXX object CMakeFiles/lidar_subscriber.dir/src/lidar_subscriber.cpp.o[0m
+[ 62%] Built target fake_camera_pro
+[ 87%] Built target fake_lidar_pro
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:33:13:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::string LidarSubscriber::[01;32m[K_lidar_data_to_string[m[K(std::vector<float>)[m[K’
+   33 | std::string [01;31m[KLidarSubscriber[m[K::_lidar_data_to_string(std::vector<float> data){
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:18:17:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstd::string LidarSubscriber::[01;32m[K_lidar_data_to_string[m[K(std::vector<unsigned char, std::allocator<unsigned char> >)[m[K’
+   18 |     std::string [01;36m[K_lidar_data_to_string[m[K(std::vector<uint8_t> data);
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LidarSubscriber[m[K’ defined here
+    8 | class [01;36m[KLidarSubscriber[m[K: public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:3[m[K:
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:[m[K In member function ‘[01m[Kvoid LidarSubscriber::[01;32m[K_lidar_scan_callback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr)[m[K’:
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:45:81:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kvector<[01;32m[Kfloat[m[K,allocator<[01;32m[Kfloat[m[K>>[m[K’ to ‘[01m[Kvector<[01;32m[Kunsigned char[m[K,allocator<[01;32m[Kunsigned char[m[K>>[m[K’
+   45 |     RCLCPP_INFO(this->get_logger(), "RECEIVED - %s", _lidar_data_to_string([01;31m[Kmsg->ranges[m[K).c_str());
+      |                                                                            [01;31m[K~~~~~^~~~~~[m[K
+      |                                                                                 [01;31m[K|[m[K
+      |                                                                                 [01;31m[Kvector<float,allocator<float>>[m[K
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:18:60:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::string LidarSubscriber::[01;32m[K_lidar_data_to_string[m[K(std::vector<unsigned char, std::allocator<unsigned char> >)[m[K’
+   18 |     std::string _lidar_data_to_string([01;36m[Kstd::vector<uint8_t> data[m[K);
+      |                                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/lidar_subscriber.dir/build.make:76: CMakeFiles/lidar_subscriber.dir/src/lidar_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/lidar_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

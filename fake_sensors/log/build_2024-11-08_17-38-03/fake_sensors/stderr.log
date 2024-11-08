@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:118 (file):
+  file INSTALL cannot find
+  "/home/homer/Documents/Ros2FakeSensors/fake_sensors/launch": No such file
+  or directory.
+
+[0m

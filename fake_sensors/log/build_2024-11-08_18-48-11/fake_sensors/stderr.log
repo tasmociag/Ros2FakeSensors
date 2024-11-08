@@ -1,0 +1,14 @@
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:[m[K In member function ‘[01m[Kvoid FakeLidar::[01;32m[K_read_csv_file[m[K()[m[K’:
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:192:47:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+  192 |     std::string current_path = std::filesystem[01;31m[K:[m[Kcurrent_path()
+      |                                               [01;31m[K^[m[K
+      |                                               [32m[K::[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:12[m[K:
+[01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:193:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+  193 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%s", current_path.c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/fake_lidar_pro.dir/build.make:76: CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/fake_lidar_pro.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

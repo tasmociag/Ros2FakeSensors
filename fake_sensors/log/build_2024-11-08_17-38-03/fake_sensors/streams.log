@@ -1,0 +1,53 @@
+[0.018s] Invoking command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/homer/Documents/Ros2FakeSensors/fake_sensors -DCMAKE_INSTALL_PREFIX=/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors
+[0.039s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.282s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.320s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.334s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.434s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.435s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.509s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.582s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.597s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.653s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.828s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.828s] -- Configured cppcheck include dirs: /home/homer/Documents/Ros2FakeSensors/fake_sensors/include;$<BUILD_INTERFACE:/home/homer/Documents/Ros2FakeSensors/fake_sensors/include>
+[0.828s] -- Configured cppcheck exclude dirs and/or files: 
+[0.831s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.831s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.835s] -- Added test 'lint_cmake' to check CMake code style
+[0.837s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.849s] -- Added test 'uncrustify' to check C / C++ code style
+[0.849s] -- Configured uncrustify additional arguments: 
+[0.852s] -- Added test 'xmllint' to check XML markup files
+[0.859s] -- Configuring done (0.8s)
+[0.914s] -- Generating done (0.0s)
+[0.925s] -- Build files have been written to: /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors
+[0.929s] Invoked command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/homer/Documents/Ros2FakeSensors/fake_sensors -DCMAKE_INSTALL_PREFIX=/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors
+[0.931s] Invoking command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2
+[1.045s] [ 16%] [32mBuilding CXX object CMakeFiles/camera_subscriber.dir/src/camera_subscriber.cpp.o[0m
+[1.054s] [ 33%] [32mBuilding CXX object CMakeFiles/fake_camera_pro.dir/src/fake_camera_pro.cpp.o[0m
+[10.898s] [ 50%] [32m[1mLinking CXX executable fake_camera_pro[0m
+[11.075s] [ 66%] [32m[1mLinking CXX executable camera_subscriber[0m
+[11.426s] [ 66%] Built target fake_camera_pro
+[11.462s] [ 83%] [32mBuilding CXX object CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o[0m
+[11.476s] [ 83%] Built target camera_subscriber
+[17.253s] [100%] [32m[1mLinking CXX executable fake_lidar_pro[0m
+[17.491s] [100%] Built target fake_lidar_pro
+[17.520s] Invoked command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2
+[17.624s] Invoking command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors
+[17.636s] -- Install configuration: ""
+[17.637s] -- Installing: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/camera_subscriber
+[17.638s] -- Set non-toolchain portion of runtime path of "/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/camera_subscriber" to ""
+[17.638s] -- Installing: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/fake_lidar_pro
+[17.641s] -- Set non-toolchain portion of runtime path of "/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/fake_lidar_pro" to ""
+[17.641s] -- Installing: /home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/fake_camera_pro
+[17.643s] -- Set non-toolchain portion of runtime path of "/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors/lib/fake_sensors/fake_camera_pro" to ""
+[17.643s] [31mCMake Error at cmake_install.cmake:118 (file):
+[17.643s]   file INSTALL cannot find
+[17.643s]   "/home/homer/Documents/Ros2FakeSensors/fake_sensors/launch": No such file
+[17.643s]   or directory.
+[17.643s] 
+[17.643s] [0m
+[17.646s] Invoked command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors

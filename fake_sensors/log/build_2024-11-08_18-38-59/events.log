@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.005364] (fake_sensors) JobQueued: {'identifier': 'fake_sensors', 'dependencies': OrderedDict()}
+[0.005477] (fake_sensors) JobStarted: {'identifier': 'fake_sensors'}
+[0.021958] (fake_sensors) JobProgress: {'identifier': 'fake_sensors', 'progress': 'cmake'}
+[0.025179] (fake_sensors) JobProgress: {'identifier': 'fake_sensors', 'progress': 'build'}
+[0.025273] (fake_sensors) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors', '--', '-j2', '-l2'], 'cwd': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'homer', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/homer', 'OLDPWD': '/home/homer/Documents/Ros2FakeSensors', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/Alacritty.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1768', 'SYSTEMD_EXEC_PID': '2009', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5261', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'homer', 'ALACRITTY_SOCKET': '/run/user/1000/Alacritty-wayland-0-5261.sock', 'WINDOWID': '94229540546480', 'JOURNAL_STREAM': '8:14870', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'homer', 'TERM': 'xterm-256color', 'ALACRITTY_LOG': '/tmp/Alacritty-5261.log', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/homer-VirtualBox:@/tmp/.ICE-unix/1972,unix/homer-VirtualBox:/tmp/.ICE-unix/1972', 'INVOCATION_ID': '622707ef3a3b432aa570426c806ce4c8', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YWRUW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '94229540546480', 'PWD': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors:/opt/ros/jazzy'}), 'shell': False}
+[0.110703] (-) TimerEvent: {}
+[0.153610] (fake_sensors) StdoutLine: {'line': b'[ 25%] Built target camera_subscriber\n'}
+[0.188498] (fake_sensors) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/lidar_subscriber.dir/src/lidar_subscriber.cpp.o\x1b[0m\n'}
+[0.213367] (-) TimerEvent: {}
+[0.218329] (fake_sensors) StdoutLine: {'line': b'[ 62%] Built target fake_camera_pro\n'}
+[0.319302] (-) TimerEvent: {}
+[0.349157] (fake_sensors) StdoutLine: {'line': b'[ 87%] Built target fake_lidar_pro\n'}
+[0.419549] (-) TimerEvent: {}
+[0.520363] (-) TimerEvent: {}
+[0.621352] (-) TimerEvent: {}
+[0.721694] (-) TimerEvent: {}
+[0.822447] (-) TimerEvent: {}
+[0.923299] (-) TimerEvent: {}
+[1.023802] (-) TimerEvent: {}
+[1.126467] (-) TimerEvent: {}
+[1.227859] (-) TimerEvent: {}
+[1.329347] (-) TimerEvent: {}
+[1.432948] (-) TimerEvent: {}
+[1.535002] (-) TimerEvent: {}
+[1.638848] (-) TimerEvent: {}
+[1.740648] (-) TimerEvent: {}
+[1.843028] (-) TimerEvent: {}
+[1.945712] (-) TimerEvent: {}
+[2.049480] (-) TimerEvent: {}
+[2.153120] (-) TimerEvent: {}
+[2.254439] (-) TimerEvent: {}
+[2.356663] (-) TimerEvent: {}
+[2.458286] (-) TimerEvent: {}
+[2.562249] (-) TimerEvent: {}
+[2.664328] (-) TimerEvent: {}
+[2.765946] (-) TimerEvent: {}
+[2.869457] (-) TimerEvent: {}
+[2.972521] (-) TimerEvent: {}
+[3.078820] (-) TimerEvent: {}
+[3.158472] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:33:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kstd::string LidarSubscriber::\x1b[01;32m\x1b[K_lidar_data_to_string\x1b[m\x1b[K(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.158683] (fake_sensors) StderrLine: {'line': b'   33 | std::string \x1b[01;31m\x1b[KLidarSubscriber\x1b[m\x1b[K::_lidar_data_to_string(std::vector<float> data){\n'}
+[3.158751] (fake_sensors) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.158862] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:18:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kstd::string LidarSubscriber::\x1b[01;32m\x1b[K_lidar_data_to_string\x1b[m\x1b[K(std::vector<unsigned char, std::allocator<unsigned char> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.158931] (fake_sensors) StderrLine: {'line': b'   18 |     std::string \x1b[01;36m\x1b[K_lidar_data_to_string\x1b[m\x1b[K(std::vector<uint8_t> data);\n'}
+[3.158985] (fake_sensors) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.159039] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:8:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass LidarSubscriber\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[3.159103] (fake_sensors) StderrLine: {'line': b'    8 | class \x1b[01;36m\x1b[KLidarSubscriber\x1b[m\x1b[K: public rclcpp::Node\n'}
+[3.159155] (fake_sensors) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.165273] (fake_sensors) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.165400] (fake_sensors) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[3.165457] (fake_sensors) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[3.165512] (fake_sensors) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:3\x1b[m\x1b[K:\n'}
+[3.165564] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LidarSubscriber::\x1b[01;32m\x1b[K_lidar_scan_callback\x1b[m\x1b[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.165618] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:45:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kvector<\x1b[01;32m\x1b[Kfloat\x1b[m\x1b[K,allocator<\x1b[01;32m\x1b[Kfloat\x1b[m\x1b[K>>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kvector<\x1b[01;32m\x1b[Kunsigned char\x1b[m\x1b[K,allocator<\x1b[01;32m\x1b[Kunsigned char\x1b[m\x1b[K>>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.165673] (fake_sensors) StderrLine: {'line': b'   45 |     RCLCPP_INFO(this->get_logger(), "RECEIVED - %s", _lidar_data_to_string(\x1b[01;31m\x1b[Kmsg->ranges\x1b[m\x1b[K).c_str());\n'}
+[3.165726] (fake_sensors) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.165777] (fake_sensors) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.165829] (fake_sensors) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[Kvector<float,allocator<float>>\x1b[m\x1b[K\n'}
+[3.165882] (fake_sensors) StderrLine: {'line': b'\x1b[01m\x1b[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/lidar_subscriber.cpp:18:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kstd::string LidarSubscriber::\x1b[01;32m\x1b[K_lidar_data_to_string\x1b[m\x1b[K(std::vector<unsigned char, std::allocator<unsigned char> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.165936] (fake_sensors) StderrLine: {'line': b'   18 |     std::string _lidar_data_to_string(\x1b[01;36m\x1b[Kstd::vector<uint8_t> data\x1b[m\x1b[K);\n'}
+[3.165988] (fake_sensors) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.179558] (-) TimerEvent: {}
+[3.279887] (-) TimerEvent: {}
+[3.380743] (-) TimerEvent: {}
+[3.482354] (-) TimerEvent: {}
+[3.583061] (-) TimerEvent: {}
+[3.683599] (-) TimerEvent: {}
+[3.785842] (-) TimerEvent: {}
+[3.886912] (-) TimerEvent: {}
+[3.987593] (-) TimerEvent: {}
+[4.089470] (-) TimerEvent: {}
+[4.192326] (-) TimerEvent: {}
+[4.295531] (-) TimerEvent: {}
+[4.398927] (-) TimerEvent: {}
+[4.500876] (-) TimerEvent: {}
+[4.602828] (-) TimerEvent: {}
+[4.704353] (-) TimerEvent: {}
+[5.005483] (-) TimerEvent: {}
+[5.109727] (-) TimerEvent: {}
+[5.212491] (-) TimerEvent: {}
+[5.654403] (-) TimerEvent: {}
+[5.716821] (fake_sensors) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lidar_subscriber.dir/build.make:76: CMakeFiles/lidar_subscriber.dir/src/lidar_subscriber.cpp.o] Error 1\n'}
+[5.719106] (fake_sensors) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/lidar_subscriber.dir/all] Error 2\n'}
+[5.719205] (fake_sensors) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.732369] (fake_sensors) CommandEnded: {'returncode': 2}
+[5.755345] (-) TimerEvent: {}
+[5.861406] (-) TimerEvent: {}
+[5.873671] (fake_sensors) JobEnded: {'identifier': 'fake_sensors', 'rc': 2}
+[5.877530] (-) EventReactorShutdown: {}

@@ -1,0 +1,15 @@
+[0.026s] Invoking command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2
+[0.190s] [ 25%] Built target camera_subscriber
+[0.195s] [ 50%] Built target lidar_subscriber
+[0.341s] [ 75%] Built target fake_camera_pro
+[0.342s] [ 87%] [32mBuilding CXX object CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o[0m
+[2.965s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:[m[K In constructor ‘[01m[KFakeLidar::[01;32m[KFakeLidar[m[K()[m[K’:
+[2.966s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:161:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktab[m[K’ was not declared in this scope; did you mean ‘[01m[Ktan[m[K’?
+[2.966s]   161 |         return [01;31m[Ktab[m[K;
+[2.966s]       |                [01;31m[K^~~[m[K
+[2.966s]       |                [32m[Ktan[m[K
+[2.966s] [01m[K/home/homer/Documents/Ros2FakeSensors/fake_sensors/src/fake_lidar_pro.cpp:161:16:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+[4.164s] gmake[2]: *** [CMakeFiles/fake_lidar_pro.dir/build.make:76: CMakeFiles/fake_lidar_pro.dir/src/fake_lidar_pro.cpp.o] Error 1
+[4.168s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/fake_lidar_pro.dir/all] Error 2
+[4.176s] gmake: *** [Makefile:146: all] Error 2
+[4.182s] Invoked command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors -- -j2 -l2

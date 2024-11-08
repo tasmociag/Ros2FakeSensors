@@ -1,0 +1,44 @@
+[0.034s] Invoking command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/homer/Documents/Ros2FakeSensors/fake_sensors -DCMAKE_INSTALL_PREFIX=/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors
+[0.511s] -- The C compiler identification is GNU 13.2.0
+[1.057s] -- The CXX compiler identification is GNU 13.2.0
+[1.113s] -- Detecting C compiler ABI info
+[1.370s] -- Detecting C compiler ABI info - done
+[1.382s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.382s] -- Detecting C compile features
+[1.384s] -- Detecting C compile features - done
+[1.406s] -- Detecting CXX compiler ABI info
+[1.768s] -- Detecting CXX compiler ABI info - done
+[1.780s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.780s] -- Detecting CXX compile features
+[1.780s] -- Detecting CXX compile features - done
+[1.794s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.002s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.229s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.346s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.377s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.426s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.470s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.657s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.666s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.846s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.870s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.899s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.067s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.103s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.202s] -- Found OpenCV: /usr/local (found version "4.10.0") 
+[3.205s] [31mCMake Error at CMakeLists.txt:65 (install):
+[3.206s]   install TARGETS given target "minimal_node" which does not exist.
+[3.206s] 
+[3.206s] [0m
+[3.209s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.359s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[3.360s]   ament_package_xml() package name 'fake_sensors' in '/package.xml' does not
+[3.360s]   match current PROJECT_NAME 'fake_sensord'.  You must call project() with
+[3.360s]   the same package name before.
+[3.360s] Call Stack (most recent call first):
+[3.360s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[3.360s]   CMakeLists.txt:81 (ament_lint_auto_find_test_dependencies)
+[3.360s] 
+[3.360s] [0m
+[3.360s] -- Configuring incomplete, errors occurred!
+[3.380s] Invoked command in '/home/homer/Documents/Ros2FakeSensors/fake_sensors/build/fake_sensors' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/homer/Documents/Ros2FakeSensors/fake_sensors -DCMAKE_INSTALL_PREFIX=/home/homer/Documents/Ros2FakeSensors/fake_sensors/install/fake_sensors
